@@ -63,6 +63,12 @@ p span {
   padding-bottom: 10px;
 }
 
+@media (max-width: 500px) {
+  .profile {
+    width: 300px;
+  }
+}
+
 .skills {
   margin: auto;
   width: 500px;
@@ -89,6 +95,12 @@ p span {
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills {
+    width: 300px;
   }
 }
 
@@ -121,11 +133,19 @@ p span {
   margin-left: auto;
 }
 
+@media (max-width: 500px) {
+  .projects {
+    width: 300px;
+  }
+}
+
 .contact {
   margin-top: 30px;
 }
 
 .contact ul {
+  margin: 0%;
   list-style: none;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
