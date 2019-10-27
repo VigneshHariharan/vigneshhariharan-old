@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+html,
+body {
+  margin: 0%;
+}
+
+a {
+  color: #ffe700;
+}
+
+body {
+  color: white;
+  background-color: #1b1b1b;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+div h1 {
+  color: white;
+}
+
+p span {
+  color: #ffe700;
+}
+
+.profile {
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  padding: 0 20px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.profile h1,
+.profile h2 {
+  padding-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.skills {
+  margin: auto;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.skills ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .skills ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+
+.projects {
+  margin: auto;
+  width: 500px;
+}
+
+.projects h2 {
+  margin-bottom: 20px;
+}
+
+.projects .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.projects .card h3 {
+  padding: 10px 0;
+}
+
+.projects .card a {
+  margin-left: auto;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact ul {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
