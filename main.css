@@ -87,6 +87,22 @@ p span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-weight: 500;
+}
+
+.skills ul li {
+  border-radius: 2px;
+  background-color: #ffe700;
+  color: #1b1b1b;
+  padding: 0.5em;
+  margin-right: 5px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.skills ul li:hover {
+  -webkit-transform: rotate(1deg) scale(1.05);
+          transform: rotate(1deg) scale(1.05);
 }
 
 @media (max-width: 500px) {
@@ -123,6 +139,9 @@ p span {
           flex-flow: column nowrap;
   border: 1px solid white;
   padding: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .projects .card h3 {
@@ -133,6 +152,11 @@ p span {
   margin-left: auto;
 }
 
+.projects .card:hover {
+  -webkit-transform: rotate(-0.5deg) scale(1.03);
+          transform: rotate(-0.5deg) scale(1.03);
+}
+
 @media (max-width: 500px) {
   .projects {
     width: 300px;
@@ -140,7 +164,7 @@ p span {
 }
 
 .contact {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .contact ul {

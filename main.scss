@@ -75,6 +75,18 @@ p {
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-between;
+		font-weight: 500;
+		li {
+			border-radius: 2px;
+			background-color: $highlight-color;
+			color: $background-color;
+			padding: 0.5em;
+			margin-right: 5px;
+			transition: all .3s ease-in-out;
+			&:hover {
+				transform: rotate(1deg) scale(1.05);
+			}
+		}
 		@media (max-width: 500px) {
 			flex-flow: column nowrap;
 		}
@@ -95,11 +107,16 @@ p {
 		flex-flow: column nowrap;
 		border: 1px solid white;
 		padding: 10px;
+		margin-bottom: 20px;
+		transition: all .3s ease-in-out;
 		h3 {
 			padding: 10px 0;
 		}
 		a {
 			margin-left: auto;
+		}
+		&:hover {
+			transform: rotate(-0.5deg) scale(1.03);
 		}
 	}
 	@media (max-width: 500px) {
@@ -107,7 +124,7 @@ p {
 	}
 }
 .contact {
-	margin-top: 30px;
+	margin: 30px 0;
 
 	ul {
 		margin: 0%;
