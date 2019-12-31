@@ -69,7 +69,7 @@ p {
 .skills {
 	margin: auto;
 	width: 500px;
-	margin-top: 50px;
+	margin-top: 25px;
 	ul {
 		list-style: none;
 		display: flex;
@@ -82,6 +82,7 @@ p {
 			color: $background-color;
 			padding: 0.5em;
 			margin-right: 5px;
+			margin-bottom: 10px;
 			transition: all .3s ease-in-out;
 			&:hover {
 				transform: rotate(1deg) scale(1.05);
@@ -107,7 +108,7 @@ p {
 		flex-flow: column nowrap;
 		border: 1px solid white;
 		padding: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 		transition: all .3s ease-in-out;
 		h3 {
 			padding: 10px 0;
@@ -123,12 +124,15 @@ p {
 		width: 300px;
 	}
 }
-.contact {
-	margin: 30px 0;
-
+.contact,
+.code {
+	margin: 20px 0;
 	ul {
 		margin: 0%;
 		list-style: none;
 		padding: 0;
 	}
+}
+.contact {
+	margin-bottom: 50px;
 }
